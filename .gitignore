@@ -22,3 +22,6 @@ Thumbs.db
 
 # 3D Models
 *.glb
+
+# Vercel
+.vercel
