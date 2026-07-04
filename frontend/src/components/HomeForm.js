@@ -85,7 +85,7 @@ const HomeForm = ({ onResult, onFormChange, initialValues }) => {
     setLoading(true);
 
     try {
-      const API_URL = process.env.REACT_APP_API_URL || "/api";
+      const API_URL = process.env.REACT_APP_API_URL || "http://127.0.0.1:8000";
       const res = await axios.post(`${API_URL}/predict`, {
         city,
         place,

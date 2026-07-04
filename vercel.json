@@ -1,28 +1,7 @@
 {
-  "services": {
-    "frontend": {
-      "root": "frontend",
-      "framework": "create-react-app"
-    },
-    "backend": {
-      "root": "backend",
-      "framework": "fastapi"
-    }
-  },
-  "rewrites": [
-    {
-      "source": "/api(/.*)?",
-      "destination": {
-        "type": "service",
-        "service": "backend"
-      }
-    },
-    {
-      "source": "/(.*)",
-      "destination": {
-        "type": "service",
-        "service": "frontend"
-      }
-    }
-  ]
+  "rootDirectory": "frontend",
+  "framework": "create-react-app",
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "installCommand": "npm install"
 }
