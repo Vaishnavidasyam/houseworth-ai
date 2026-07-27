@@ -205,6 +205,8 @@ http://127.0.0.1:8000
 
 ---
 
+[![Deployed with Vercel](https://vercel.com/button)](https://houseworth-ai.vercel.app/)
+
 # 👨‍💻 Author
 
 ## Vaishnavi Dasyam
